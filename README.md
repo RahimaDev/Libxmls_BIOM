@@ -42,7 +42,7 @@ Zw in [-56.51,75.76]
 
 # Detecting points inside buildings in the outside scan (by Rahima Djahel)
 
-Download the folder data available at:
+Download the  data folder available at:
 https://drive.google.com/file/d/1qytXcfKCWQYir5TegCAysPfHRJzwyKzP/view?usp=sharing
 
 Uncompress it :
