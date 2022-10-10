@@ -40,7 +40,12 @@ Zw in [-56.51,75.76]
 #./bin/XMlsInfo ../data/traj/20140616 ../data/Calib.xml ../data/test.ept
 
 
-# Detecting points inside buildings in the outside scan
+# Detecting points inside buildings in the outside scan (by Rahima Djahel)
+
+Download the necessary data available at:
+
+
+
 
 ./bin/Polygon ../data/trajecto/sbet_EMS-160624-LC_1.out     ../data/CalibRiegl_clone.xml     ../data/EMS-20160624_0755-01-00003.ept     25859 0
 
@@ -52,7 +57,7 @@ EMS-20160624_0755-01-00003.ept= folder containing the echo pulse tables (generat
 25859=id of the block to process (look at info.txt in ept_folder for valid range)
 0=parameter to enable/disable a contrario method (0 disable/1 enable)
 
-# Openings detection
+# Openings detection (by Rahima Djahel)
 
 ./bin/Openings ../data/trajecto/sbet_EMS-160624-LC_1.out     ../data/CalibRiegl_clone.xml     ../data/EMS-20160624_0755-01-00003.ept     25727 1
 
