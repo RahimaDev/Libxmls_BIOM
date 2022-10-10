@@ -42,12 +42,14 @@ Zw in [-56.51,75.76]
 
 # Detecting points inside buildings in the outside scan (by Rahima Djahel)
 
-Download the necessary data available at:
+Download the folder data available at:
+https://drive.google.com/file/d/1qytXcfKCWQYir5TegCAysPfHRJzwyKzP/view?usp=sharing
+
+Uncompress it :
+unzip data.zip
 
 
-
-
-./bin/Polygon ../data/trajecto/sbet_EMS-160624-LC_1.out     ../data/CalibRiegl_clone.xml     ../data/EMS-20160624_0755-01-00003.ept     25859 0
+./bin/Polygon /path/to/data/trajecto/sbet_EMS-160624-LC_1.out     /path/to/data/CalibRiegl_clone.xml     /path/to/data/EMS-20160624_0755-01-00003.ept     25859 0
 
 with:
 
@@ -59,7 +61,7 @@ EMS-20160624_0755-01-00003.ept= folder containing the echo pulse tables (generat
 
 # Openings detection (by Rahima Djahel)
 
-./bin/Openings ../data/trajecto/sbet_EMS-160624-LC_1.out     ../data/CalibRiegl_clone.xml     ../data/EMS-20160624_0755-01-00003.ept     25727 1
+./bin/Openings /path/to/data/trajecto/sbet_EMS-160624-LC_1.out     /path/to/data/CalibRiegl_clone.xml     /path/to/data/EMS-20160624_0755-01-00003.ept     25727 1
 
 # Related papers:
 Openings detection:
