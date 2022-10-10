@@ -1,4 +1,4 @@
-# libXMLS README
+# Libxmls_BIOM README
 Mobile Laser Scanning library by Bruno Vallet for IGN-France
 
 Required dependencies: TinyXML, Boost (date_time system filesystem)
